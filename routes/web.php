@@ -17,6 +17,3 @@ Route::get('/skills', function () {
     return view('components/skills');
 });
 
-Route::get('/hobby', function () {
-    return view('components/hobbies');
-});
