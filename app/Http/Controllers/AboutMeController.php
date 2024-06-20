@@ -9,10 +9,11 @@ class AboutMeController extends Controller
     public function index()
     {
         $data =array (
-            'title' => 'About',
+            'title' => 'About Me',
             'greetings' => 'Nice to meet you I am',
             'name' => 'Ezekiel Cagas',
-            'age' => '21'
+            'age' => 21,
+            'address' => 'Tuba Poblacion, Benguet'
         );
 
         return view('components.about-me', $data);
